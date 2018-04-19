@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		369171C22086D71000EF6D1E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171C12086D71000EF6D1E /* AppDelegate.m */; };
+		369171C52086D71000EF6D1E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171C42086D71000EF6D1E /* ViewController.m */; };
+		369171C82086D71000EF6D1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369171C62086D71000EF6D1E /* Main.storyboard */; };
+		369171CA2086D71D00EF6D1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 369171C92086D71D00EF6D1E /* Assets.xcassets */; };
+		369171CD2086D71D00EF6D1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 369171CB2086D71D00EF6D1E /* LaunchScreen.storyboard */; };
+		369171D02086D71D00EF6D1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171CF2086D71D00EF6D1E /* main.m */; };
+		369171DA2086D71D00EF6D1E /* LYL_whack_a_moleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171D92086D71D00EF6D1E /* LYL_whack_a_moleTests.m */; };
+		369171E52086D71D00EF6D1E /* LYL_whack_a_moleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171E42086D71D00EF6D1E /* LYL_whack_a_moleUITests.m */; };
+		369171F52086D7B600EF6D1E /* GameSoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171F42086D7B600EF6D1E /* GameSoundTool.m */; };
+		369171F82086DCB600EF6D1E /* 背景音乐.MP3 in Resources */ = {isa = PBXBuildFile; fileRef = 369171F72086DCB600EF6D1E /* 背景音乐.MP3 */; };
+		369171FA2086E08000EF6D1E /* 打中.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 369171F92086E08000EF6D1E /* 打中.m4a */; };
+		369171FE2086EB1400EF6D1E /* MouseItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369171FD2086EB1400EF6D1E /* MouseItemView.m */; };
+		369172042086F7D200EF6D1E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 369172012086F7D200EF6D1E /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		369171D62086D71D00EF6D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369171B52086D71000EF6D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369171BC2086D71000EF6D1E;
+			remoteInfo = "LYL_whack-a-mole";
+		};
+		369171E12086D71D00EF6D1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 369171B52086D71000EF6D1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 369171BC2086D71000EF6D1E;
+			remoteInfo = "LYL_whack-a-mole";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		369171BD2086D71000EF6D1E /* LYL_whack-a-mole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LYL_whack-a-mole.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369171C02086D71000EF6D1E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		369171C12086D71000EF6D1E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		369171C32086D71000EF6D1E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		369171C42086D71000EF6D1E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		369171C72086D71000EF6D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		369171C92086D71D00EF6D1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		369171CC2086D71D00EF6D1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		369171CE2086D71D00EF6D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369171CF2086D71D00EF6D1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		369171D52086D71D00EF6D1E /* LYL_whack-a-moleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LYL_whack-a-moleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369171D92086D71D00EF6D1E /* LYL_whack_a_moleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYL_whack_a_moleTests.m; sourceTree = "<group>"; };
+		369171DB2086D71D00EF6D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369171E02086D71D00EF6D1E /* LYL_whack-a-moleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LYL_whack-a-moleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		369171E42086D71D00EF6D1E /* LYL_whack_a_moleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYL_whack_a_moleUITests.m; sourceTree = "<group>"; };
+		369171E62086D71D00EF6D1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		369171F32086D7B600EF6D1E /* GameSoundTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSoundTool.h; sourceTree = "<group>"; };
+		369171F42086D7B600EF6D1E /* GameSoundTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameSoundTool.m; sourceTree = "<group>"; };
+		369171F72086DCB600EF6D1E /* 背景音乐.MP3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "背景音乐.MP3"; sourceTree = "<group>"; };
+		369171F92086E08000EF6D1E /* 打中.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "打中.m4a"; sourceTree = "<group>"; };
+		369171FC2086EB1400EF6D1E /* MouseItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MouseItemView.h; sourceTree = "<group>"; };
+		369171FD2086EB1400EF6D1E /* MouseItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MouseItemView.m; sourceTree = "<group>"; };
+		369172002086F7D200EF6D1E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		369172012086F7D200EF6D1E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		369171BA2086D71000EF6D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171D22086D71D00EF6D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171DD2086D71D00EF6D1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		369171B42086D70F00EF6D1E = {
+			isa = PBXGroup;
+			children = (
+				369171BF2086D71000EF6D1E /* LYL_whack-a-mole */,
+				369171D82086D71D00EF6D1E /* LYL_whack-a-moleTests */,
+				369171E32086D71D00EF6D1E /* LYL_whack-a-moleUITests */,
+				369171BE2086D71000EF6D1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		369171BE2086D71000EF6D1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				369171BD2086D71000EF6D1E /* LYL_whack-a-mole.app */,
+				369171D52086D71D00EF6D1E /* LYL_whack-a-moleTests.xctest */,
+				369171E02086D71D00EF6D1E /* LYL_whack-a-moleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		369171BF2086D71000EF6D1E /* LYL_whack-a-mole */ = {
+			isa = PBXGroup;
+			children = (
+				369171FF2086F7D200EF6D1E /* UIView+Extension */,
+				369171FB2086EB0000EF6D1E /* MouseView */,
+				369171F62086DCB600EF6D1E /* AudioResources */,
+				369171F22086D79C00EF6D1E /* Sound */,
+				369171C02086D71000EF6D1E /* AppDelegate.h */,
+				369171C12086D71000EF6D1E /* AppDelegate.m */,
+				369171C32086D71000EF6D1E /* ViewController.h */,
+				369171C42086D71000EF6D1E /* ViewController.m */,
+				369171C62086D71000EF6D1E /* Main.storyboard */,
+				369171C92086D71D00EF6D1E /* Assets.xcassets */,
+				369171CB2086D71D00EF6D1E /* LaunchScreen.storyboard */,
+				369171CE2086D71D00EF6D1E /* Info.plist */,
+				369171CF2086D71D00EF6D1E /* main.m */,
+			);
+			path = "LYL_whack-a-mole";
+			sourceTree = "<group>";
+		};
+		369171D82086D71D00EF6D1E /* LYL_whack-a-moleTests */ = {
+			isa = PBXGroup;
+			children = (
+				369171D92086D71D00EF6D1E /* LYL_whack_a_moleTests.m */,
+				369171DB2086D71D00EF6D1E /* Info.plist */,
+			);
+			path = "LYL_whack-a-moleTests";
+			sourceTree = "<group>";
+		};
+		369171E32086D71D00EF6D1E /* LYL_whack-a-moleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				369171E42086D71D00EF6D1E /* LYL_whack_a_moleUITests.m */,
+				369171E62086D71D00EF6D1E /* Info.plist */,
+			);
+			path = "LYL_whack-a-moleUITests";
+			sourceTree = "<group>";
+		};
+		369171F22086D79C00EF6D1E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				369171F32086D7B600EF6D1E /* GameSoundTool.h */,
+				369171F42086D7B600EF6D1E /* GameSoundTool.m */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		369171F62086DCB600EF6D1E /* AudioResources */ = {
+			isa = PBXGroup;
+			children = (
+				369171F92086E08000EF6D1E /* 打中.m4a */,
+				369171F72086DCB600EF6D1E /* 背景音乐.MP3 */,
+			);
+			path = AudioResources;
+			sourceTree = "<group>";
+		};
+		369171FB2086EB0000EF6D1E /* MouseView */ = {
+			isa = PBXGroup;
+			children = (
+				369171FC2086EB1400EF6D1E /* MouseItemView.h */,
+				369171FD2086EB1400EF6D1E /* MouseItemView.m */,
+			);
+			path = MouseView;
+			sourceTree = "<group>";
+		};
+		369171FF2086F7D200EF6D1E /* UIView+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				369172002086F7D200EF6D1E /* UIView+Extension.h */,
+				369172012086F7D200EF6D1E /* UIView+Extension.m */,
+			);
+			path = "UIView+Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		369171BC2086D71000EF6D1E /* LYL_whack-a-mole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369171E92086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-mole" */;
+			buildPhases = (
+				369171B92086D71000EF6D1E /* Sources */,
+				369171BA2086D71000EF6D1E /* Frameworks */,
+				369171BB2086D71000EF6D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LYL_whack-a-mole";
+			productName = "LYL_whack-a-mole";
+			productReference = 369171BD2086D71000EF6D1E /* LYL_whack-a-mole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		369171D42086D71D00EF6D1E /* LYL_whack-a-moleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369171EC2086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-moleTests" */;
+			buildPhases = (
+				369171D12086D71D00EF6D1E /* Sources */,
+				369171D22086D71D00EF6D1E /* Frameworks */,
+				369171D32086D71D00EF6D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369171D72086D71D00EF6D1E /* PBXTargetDependency */,
+			);
+			name = "LYL_whack-a-moleTests";
+			productName = "LYL_whack-a-moleTests";
+			productReference = 369171D52086D71D00EF6D1E /* LYL_whack-a-moleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		369171DF2086D71D00EF6D1E /* LYL_whack-a-moleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 369171EF2086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-moleUITests" */;
+			buildPhases = (
+				369171DC2086D71D00EF6D1E /* Sources */,
+				369171DD2086D71D00EF6D1E /* Frameworks */,
+				369171DE2086D71D00EF6D1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				369171E22086D71D00EF6D1E /* PBXTargetDependency */,
+			);
+			name = "LYL_whack-a-moleUITests";
+			productName = "LYL_whack-a-moleUITests";
+			productReference = 369171E02086D71D00EF6D1E /* LYL_whack-a-moleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		369171B52086D71000EF6D1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WealthOnline_iOS_team;
+				TargetAttributes = {
+					369171BC2086D71000EF6D1E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					369171D42086D71D00EF6D1E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 369171BC2086D71000EF6D1E;
+					};
+					369171DF2086D71D00EF6D1E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 369171BC2086D71000EF6D1E;
+					};
+				};
+			};
+			buildConfigurationList = 369171B82086D71000EF6D1E /* Build configuration list for PBXProject "LYL_whack-a-mole" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 369171B42086D70F00EF6D1E;
+			productRefGroup = 369171BE2086D71000EF6D1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				369171BC2086D71000EF6D1E /* LYL_whack-a-mole */,
+				369171D42086D71D00EF6D1E /* LYL_whack-a-moleTests */,
+				369171DF2086D71D00EF6D1E /* LYL_whack-a-moleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		369171BB2086D71000EF6D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369171FA2086E08000EF6D1E /* 打中.m4a in Resources */,
+				369171F82086DCB600EF6D1E /* 背景音乐.MP3 in Resources */,
+				369171CD2086D71D00EF6D1E /* LaunchScreen.storyboard in Resources */,
+				369171CA2086D71D00EF6D1E /* Assets.xcassets in Resources */,
+				369171C82086D71000EF6D1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171D32086D71D00EF6D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171DE2086D71D00EF6D1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		369171B92086D71000EF6D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369172042086F7D200EF6D1E /* UIView+Extension.m in Sources */,
+				369171FE2086EB1400EF6D1E /* MouseItemView.m in Sources */,
+				369171C52086D71000EF6D1E /* ViewController.m in Sources */,
+				369171D02086D71D00EF6D1E /* main.m in Sources */,
+				369171C22086D71000EF6D1E /* AppDelegate.m in Sources */,
+				369171F52086D7B600EF6D1E /* GameSoundTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171D12086D71D00EF6D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369171DA2086D71D00EF6D1E /* LYL_whack_a_moleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369171DC2086D71D00EF6D1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369171E52086D71D00EF6D1E /* LYL_whack_a_moleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		369171D72086D71D00EF6D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369171BC2086D71000EF6D1E /* LYL_whack-a-mole */;
+			targetProxy = 369171D62086D71D00EF6D1E /* PBXContainerItemProxy */;
+		};
+		369171E22086D71D00EF6D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 369171BC2086D71000EF6D1E /* LYL_whack-a-mole */;
+			targetProxy = 369171E12086D71D00EF6D1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		369171C62086D71000EF6D1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369171C72086D71000EF6D1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		369171CB2086D71D00EF6D1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				369171CC2086D71D00EF6D1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		369171E72086D71D00EF6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		369171E82086D71D00EF6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		369171EA2086D71D00EF6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83X7K5GN7;
+				INFOPLIST_FILE = "LYL_whack-a-mole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-mole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		369171EB2086D71D00EF6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H83X7K5GN7;
+				INFOPLIST_FILE = "LYL_whack-a-mole/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-mole";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		369171ED2086D71D00EF6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LYL_whack-a-moleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-moleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYL_whack-a-mole.app/LYL_whack-a-mole";
+			};
+			name = Debug;
+		};
+		369171EE2086D71D00EF6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LYL_whack-a-moleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-moleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYL_whack-a-mole.app/LYL_whack-a-mole";
+			};
+			name = Release;
+		};
+		369171F02086D71D00EF6D1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LYL_whack-a-moleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-moleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LYL_whack-a-mole";
+			};
+			name = Debug;
+		};
+		369171F12086D71D00EF6D1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LYL_whack-a-moleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "WealthOnline-iOS.LYL-whack-a-moleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LYL_whack-a-mole";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		369171B82086D71000EF6D1E /* Build configuration list for PBXProject "LYL_whack-a-mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369171E72086D71D00EF6D1E /* Debug */,
+				369171E82086D71D00EF6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369171E92086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-mole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369171EA2086D71D00EF6D1E /* Debug */,
+				369171EB2086D71D00EF6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369171EC2086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-moleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369171ED2086D71D00EF6D1E /* Debug */,
+				369171EE2086D71D00EF6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		369171EF2086D71D00EF6D1E /* Build configuration list for PBXNativeTarget "LYL_whack-a-moleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				369171F02086D71D00EF6D1E /* Debug */,
+				369171F12086D71D00EF6D1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 369171B52086D71000EF6D1E /* Project object */;
+}
